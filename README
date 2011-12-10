@@ -7,3 +7,5 @@ A sample usage is also shown in the DialsDemoActivity and the main.xml.
 These are dial based widget so you can set hour and minute more quickly compared to standard android widgets.
 
 A SmartTime.java class is also provided which can be used to format time in displayable format.
+
+The live usage of these widgets in an app can be seen at https://market.android.com/details?id=in.dharmin.smartalarm
