@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:padding="15dp">
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:weightSum="1" >
+	    <com.droidappster.dials.DialViewHour
+	        android:id="@+id/dialViewHour1"
+	        android:layout_weight="0.5"
+	        android:layout_marginRight="10dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	
+	    <com.droidappster.dials.DialViewMinute
+	        android:layout_weight="0.5"
+	        android:layout_marginLeft="10dp"
+	        android:id="@+id/dialViewMinute1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<TextView
+	    android:id="@+id/txtTime"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="20sp"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<RadioGroup
+	    android:id="@+id/radioGroup1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:orientation="horizontal" >
+
+	    <RadioButton
+	        android:id="@+id/rbAM"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:checked="true"
+	        android:text="AM" />
+
+	    <RadioButton
+	        android:id="@+id/rbPM"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="PM" />
+	</RadioGroup>
+
+</LinearLayout>

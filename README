@@ -1,0 +1,9 @@
+This project contains Hour and Minute settings widgets.
+
+DialViewHour.hour and DialViewMinute.minute variables can be used to obtain the values of hour and minute as displayed by the dial.
+
+A sample usage is also shown in the DialsDemoActivity and the main.xml.
+
+These are dial based widget so you can set hour and minute more quickly compared to standard android widgets.
+
+A SmartTime.java class is also provided which can be used to format time in displayable format.
